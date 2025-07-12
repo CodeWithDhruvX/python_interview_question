@@ -19,7 +19,7 @@ Based on the user’s question aur selected language, generate 3 **alag-alag aur
 🔹 User Question: {Yahaan user ka question daalo}
 🔹 Language: {Python / JavaScript / Go / etc.}
 
-User Question: How do you use `train_test_split()` and why?
+User Question: What is the difference between list and tuple?
 
 ---
 
@@ -64,4 +64,17 @@ Fir last mein banao:
 - Title aur description **SEO optimized** ho
 - Yeh ek **short video nahi** hai – yeh ek **interview prep long video** hai
 
-Start with Snippet 1, wait for me to say “yes” to go next.
+Start with Snippet 1, wait for me to say “yes” to go next
+
+After that I will say "yes" to move to the next one.
+
+Please generate the
+
+[
+    {
+        "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+        "title_text": "Go Defer Usecase"
+    }
+]
+
+generate the thumbnail titles for the abov three code snippet for this format. please don't use the any speacial charcaters and emojis

@@ -7,6 +7,8 @@ ChatGPT said:
 Sure Dhruv! Here's a list of 100 basic Python interview questions for beginners. These are ideal for freshers or junior developers preparing for entry-level roles.
 
 ✅ Python Basics
+What is the difference between list and tuple?
+
 What is Python?
 
 What are the key features of Python?
@@ -14,8 +16,6 @@ What are the key features of Python?
 How is Python interpreted?
 
 What are Python’s data types?
-
-What is the difference between list and tuple?
 
 What is a dictionary in Python?
 
@@ -4730,8 +4730,6 @@ Next steps:
 💡 Ready to move to advanced Python, or begin DSA/system design questions?
 
 Let’s celebrate this momentum and go even further 🚀
-
-
 
 No file chosenNo file chosen
 ChatGPT can make mistakes. Check important info. See Cookie Preferences.
