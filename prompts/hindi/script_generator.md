@@ -19,7 +19,7 @@ Based on the user’s question aur selected language, generate 3 **alag-alag aur
 🔹 User Question: {Yahaan user ka question daalo}
 🔹 Language: {Python / JavaScript / Go / etc.}
 
-User Question: What is the difference between list and tuple?
+User Question: What is *args and **kwargs in python?
 
 ---
 
@@ -31,10 +31,10 @@ Tone hona chahiye **friendly, simple, aur India-style conversational**, jaise ki
 
 ✅ Style aur Tone ke Rules:
 
-- **Spoken-style English** use karo, jaise daily baat-cheet mein karte ho
+- **Spoken-style HinEnglish** use karo, jaise daily baat-cheet mein karte ho
 - Language simple aur clear ho – no complex English ya Western buzzwords
 - **Indian beginner audience** ke liye relatable examples do (job, interviews, coding tasks, etc.)
-- **No Hindi or Hinglish in code** – sirf spoken part friendly ho
+- **Hinglish in code** – sirf spoken part friendly ho
 - Tone hona chahiye like a good teacher helping a beginner
 - Code line by line explain karo, har step clearly samjhao
 - Batana mat bhoolo ki beginners usually kaha galti karte hai
@@ -45,7 +45,7 @@ Har snippet ka video script ek-ek karke do. Main jab "yes" bolunga, tab agla sni
 
 Fir last mein banao:
 
-**Structured JSON Array** for the 3 code snippets. three obejct hone chahiye. Har object mein ye fields honi chahiye:
+**Structured JSON Array** for the 3 code snippets. three obejct hone chahiye. Har object mein ye fields honi chahiye and english me hi information honi chaiye:
 
 - `videoFile`: "C:/Users/YourName/Videos/video.mp4"
 - `title`: Catchy aur SEO-friendly title with emojis (max 100 chars)
@@ -77,4 +77,4 @@ Please generate the
     }
 ]
 
-generate the thumbnail titles for the abov three code snippet for this format. please don't use the any speacial charcaters and emojis
+generate the thumbnail titles for the abov three code snippet for this format. please don't use the any speacial charcaters and emojis and make sure that this information in english only
