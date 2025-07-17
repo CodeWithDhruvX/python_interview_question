@@ -41,7 +41,7 @@ def load_transcript_with_timestamps(transcript_file, input_video):
         with open(transcript_file, "r", encoding="utf-8") as f:
             for line in f:
                 parts = line.strip().split('\t')
-                if len(parts) == 3 and parts[2].strip():  # ensure non-empty line
+                if len(parts) == 3 and parts[2].strip():
                     start, end, text = float(parts[0]), float(parts[1]), parts[2].strip()
                     lines.append({
                         "start": format_time_for_ass(start),
@@ -51,7 +51,6 @@ def load_transcript_with_timestamps(transcript_file, input_video):
     except Exception as e:
         logging.error(f"Failed to read transcript with timestamps: {e}")
         return []
-
     return lines
 
 def generate_ass_from_transcript(transcript_lines, ass_path):
@@ -94,7 +93,19 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         title_escaped = title_text.upper().replace('\\', '\\\\').replace('{', '\\{').replace('}', '\\}')
         f.write(f"Dialogue: 0,{format_time_for_ass(0)},{format_time_for_ass(15)},TitleStyle,,0,0,0,,{title_escaped}\n")
 
-def process_video(input_video, output_video, transcript_folder):
+def convert_to_ts(video_path, output_ts):
+    ffmpeg.input(video_path).output(output_ts, format="mpegts", vcodec="libx264", acodec="aac", strict="experimental").run(overwrite_output=True)
+
+def merge_with_extra(main_video, extra_video, final_output):
+    ts1 = "temp_main.ts"
+    ts2 = "temp_extra.ts"
+    convert_to_ts(main_video, ts1)
+    convert_to_ts(extra_video, ts2)
+    ffmpeg.input(f"concat:{ts1}|{ts2}", format="mpegts").output(final_output, vcodec="copy", acodec="copy").run(overwrite_output=True)
+    os.remove(ts1)
+    os.remove(ts2)
+
+def process_video(input_video, output_video, transcript_folder, extra_video=None):
     base_name = Path(input_video).stem
     transcript_file = os.path.join(transcript_folder, f"{base_name}_transcript.txt")
     ass_path = f"subtitles_{base_name}.ass"
@@ -117,22 +128,23 @@ def process_video(input_video, output_video, transcript_folder):
         title_text = get_title_for_video(input_video)
         generate_hello_world_ass(hello_ass_path, duration, title_text)
 
-        ass_path_escaped = ass_path.replace('\\', '/').replace(':', '\\:')
-        hello_ass_path_escaped = hello_ass_path.replace('\\', '/').replace(':', '\\:')
-
         cmd = [
             "ffmpeg", "-y", "-i", input_video,
-            "-vf", f"ass={ass_path_escaped},ass={hello_ass_path_escaped}",
+            "-vf", f"ass={ass_path},ass={hello_ass_path}",
             "-c:v", "libx264", "-crf", "23", "-preset", "fast",
             "-c:a", "aac", "-shortest", final_with_subs
         ]
-
         result = subprocess.run(cmd, capture_output=True, text=True)
         if result.returncode != 0:
             logging.error(f"FFmpeg error: {result.stderr}")
             return
 
-        os.rename(final_with_subs, output_video)
+        if extra_video:
+            logging.info("🎞️ Merging with extra video...")
+            merge_with_extra(final_with_subs, extra_video, output_video)
+        else:
+            os.rename(final_with_subs, output_video)
+
         logging.info(f"✅ Done: {output_video}")
 
     finally:
@@ -162,10 +174,17 @@ def main():
         logging.warning("⚠️ No output folder selected.")
         return
 
+    extra_video = filedialog.askopenfilename(
+        title="Optional: Select Extra Video to Merge (Outro)",
+        filetypes=[("Video Files", "*.mp4 *.mov *.mkv")]
+    )
+    if not extra_video:
+        logging.info("ℹ️ No extra video selected. Will skip merging.")
+
     for input_video in input_videos:
         base = Path(input_video).stem
         output_path = os.path.join(output_dir, f"{base}_final.mp4")
-        process_video(input_video, output_path, transcript_folder)
+        process_video(input_video, output_path, transcript_folder, extra_video)
 
     logging.info("🎉 All videos processed!")
 
