@@ -1,21 +1,17 @@
-import sys
-import time
+# Using tuple as a dictionary key
+location_data = {
+    (28.6139, 77.2090): "New Delhi",
+    (19.0760, 72.8777): "Mumbai"
+}
 
-# Creating a large list and tuple
-large_list = [i for i in range(1000000)]
-large_tuple = tuple(large_list)
+print("City at (28.6139, 77.2090):", location_data[(28.6139, 77.2090)])
 
-print("List size in bytes:", sys.getsizeof(large_list))
-print("Tuple size in bytes:", sys.getsizeof(large_tuple))
+# Trying to use list as a key (will raise error)
+try:
+    invalid_dict = {[1, 2]: "List as key"}  # ❌
+except TypeError as e:
+    print("Error:", e)
 
-# Timing iteration
-start = time.time()
-sum(large_list)
-print("List iteration time:", round(time.time() - start, 5), "seconds")
-
-start = time.time()
-sum(large_tuple)
-print("Tuple iteration time:", round(time.time() - start, 5), "seconds")
 
 
 
