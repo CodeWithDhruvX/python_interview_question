@@ -1,12 +1,21 @@
-def greet(*args, **kwargs):
-    for name in args:
-        print(f"Hello, {name}!")
-    
-    for key, value in kwargs.items():
-        print(f"{key} = {value}")
+import sys
+import time
 
-# Example usage
-greet('Amit', 'Neha', age=25, city='Mumbai')
+# Creating a large list and tuple
+large_list = [i for i in range(1000000)]
+large_tuple = tuple(large_list)
+
+print("List size in bytes:", sys.getsizeof(large_list))
+print("Tuple size in bytes:", sys.getsizeof(large_tuple))
+
+# Timing iteration
+start = time.time()
+sum(large_list)
+print("List iteration time:", round(time.time() - start, 5), "seconds")
+
+start = time.time()
+sum(large_tuple)
+print("Tuple iteration time:", round(time.time() - start, 5), "seconds")
 
 
 
@@ -59,7 +68,7 @@ Do not include any code.
 
 ⛔ Rules:
 
-youtbe scipt include intro or outro.
+youtbe scipt include intro or outro (like and subscribe my channel).
 
 Do not explain multiple slides at once — only one script per explanation.
 
