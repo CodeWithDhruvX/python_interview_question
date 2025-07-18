@@ -1,0 +1,55 @@
+[
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Master Python Data Types with Real Examples 🔥 Must-Know for Interviews",
+    "description": "🎯 Learn Python’s most common data types in just 10 minutes!\n\nIn this video, we:\n- ✅ Explore Python's built-in types (int, float, str, list, tuple, dict, etc.)\n- 🔍 Use type() and isinstance() for real-world type checking\n- 🧠 Perfect for interviews, coding tests & Python fundamentals\n\n📌 Whether you're a beginner or revising for your next job, this quick walkthrough covers everything you need.\n\n#Python #DataTypes #PythonInterview #BeginnerPython #LearnToCode",
+    "tags": ["Python", "Python Data Types", "Python Interview Questions", "Python Basics", "type function", "isinstance", "Python for Beginners"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep Series",
+    "publishAt": "2025-07-20 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Smart Python Type Detection Using collections and types Modules",
+    "description": "🔍 Boost your Python skills by learning how to classify data types using advanced tools!\n\nIn this video:\n- 🧠 Learn to use collections.abc & types for dynamic type checking\n- 💡 Differentiate between Mappings, Iterables, Functions, and more\n- ✅ Ideal for advanced Python learners and interview candidates\n\n📚 Understand how Python handles types under-the-hood with professional-level techniques.\n\n#PythonAdvanced #PythonTips #PythonInterview #collections #types #CodingSkills",
+    "tags": ["Python", "collections.abc", "Python Function Detection", "Advanced Python", "Python Interview", "Python Type Checking"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep Series",
+    "publishAt": "2025-07-22 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Build an Interactive Python Type Checker Using eval and input",
+    "description": "🎮 Make Python learning fun with an interactive mini tool!\n\nIn this video:\n- 🧪 Build a live type checker using input() + eval()\n- 🚀 Practice real-time evaluation of Python expressions\n- 🔥 Great for beginners exploring Python data types hands-on\n\n⚠️ Also includes safety tips on using eval() the right way.\n\n#PythonTool #InteractivePython #LearnPython #TypeChecking #PythonBeginners #eval #input",
+    "tags": ["Python", "Python eval", "Interactive Python Tools", "Python input", "Python CLI tools", "Beginner Python"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep Series",
+    "publishAt": "2025-07-24 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  }
+]
+[
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Data Types Explained"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Detect Python Types Using collections"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Interactive Python Type Checker Tool"
+  }
+]

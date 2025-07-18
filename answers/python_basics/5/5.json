@@ -1,0 +1,81 @@
+[
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Python Memory Management Explained with Refcount and Garbage Collector",
+    "description": "🔥 Understand how Python memory really works with this clear explanation of reference counting and destructors!\n\n✅ What you'll learn:\n- How Python uses reference counting for memory\n- When objects get destroyed with __del__()\n- How to track reference count using sys.getrefcount()\n- Why this matters in real-world and interviews\n\n📌 Perfect for:\n- Python beginners\n- Interview prep\n- Debugging memory issues\n\n#python #memorymanagement #interviewprep #pythonforbeginners #garbagecollection #destructor",
+    "tags": [
+      "python",
+      "memory management",
+      "reference counting",
+      "garbage collection",
+      "python tutorial",
+      "interview prep",
+      "python beginner",
+      "debugging"
+    ],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Series",
+    "publishAt": "2025-07-20 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Python Circular References and Garbage Collector Demo",
+    "description": "🔁 Learn how Python handles circular references and memory cleanup using the garbage collector!\n\n✅ What you'll learn:\n- What are circular references?\n- Why destructors may not get called\n- How to use gc.collect() and gc.garbage\n- Common memory leak scenarios in Python\n\n📌 Great for:\n- Intermediate Python developers\n- Interview questions\n- Debugging stuck memory in large apps\n\n#python #memoryleak #circularreferences #gc #interviewprep #pythonmemory #garbagecollection",
+    "tags": [
+      "python",
+      "circular reference",
+      "gc",
+      "garbage collector",
+      "memory leaks",
+      "python debugging",
+      "python tutorial",
+      "interview preparation"
+    ],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Series",
+    "publishAt": "2025-07-21 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Track Python Memory in Real-Time using Tracemalloc",
+    "description": "📈 Learn how to profile memory usage in Python using tracemalloc — a must-know for performance tuning!\n\n✅ What you'll learn:\n- How to use tracemalloc in Python\n- Take snapshots of memory before and after\n- Find which lines of code consume most memory\n- Real-world use cases for memory debugging\n\n📌 Ideal for:\n- Advanced Python learners\n- Performance engineers\n- Interview preparation\n\n#python #tracemalloc #memoryprofile #memorydebug #pythonperformance #debugging #interviewprep",
+    "tags": [
+      "python",
+      "tracemalloc",
+      "memory profiling",
+      "performance debugging",
+      "python snapshot",
+      "python advanced",
+      "interview preparation"
+    ],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Series",
+    "publishAt": "2025-07-22 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  }
+]
+[
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Memory Refcount Explained"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Circular Reference Garbage Collector"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Tracemalloc Memory Profiling"
+  }
+]
