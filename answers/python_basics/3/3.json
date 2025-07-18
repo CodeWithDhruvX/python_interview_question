@@ -1,0 +1,55 @@
+[
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "🔥 Python Dictionary Tutorial for Interviews | Word Frequency Counter Explained",
+    "description": "🚀 Learn how to use Python dictionaries to count word frequencies – a common interview question!\n\n✅ In this video:\n- Step-by-step breakdown of word counting using dictionaries\n- Beginner-friendly explanation with real-world examples\n- Common mistakes to avoid\n\n💡 Perfect for:\n- Python beginners\n- Coding interviews\n- Text processing tasks\n\n#Python #Dictionary #InterviewPrep #Coding #DataStructures",
+    "tags": ["python", "dictionary", "interview questions", "coding prep", "text processing", "word count", "beginner python"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Dictionary Mastery",
+    "publishAt": "2025-07-19 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "💡 Grouping with Python defaultdict | Clean Code Trick for Interviews",
+    "description": "📚 Master Python’s defaultdict with this powerful grouping example.\n\n✅ In this video:\n- How to group names by first letter using defaultdict\n- Why defaultdict is better than using regular if-else\n- Real-life scenarios and interview examples\n\n🧠 Great for:\n- Intermediate Python learners\n- System design practice\n- Dictionary-based group logic\n\n#PythonTips #defaultdict #InterviewQuestions #GroupBy #DataStructures",
+    "tags": ["python", "defaultdict", "grouping logic", "interview prep", "data structure tricks", "python collections", "group by letter"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Dictionary Mastery",
+    "publishAt": "2025-07-20 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "🧠 Python Function Dispatcher using Dictionary | Build Smart Calculators",
+    "description": "🎯 Boost your coding skills with this advanced Python trick: using dictionaries to call functions!\n\n✅ You’ll learn:\n- How to map functions to strings using dict\n- Build a clean mini-calculator\n- Avoid if-else with smart dispatcher pattern\n\n🔥 Ideal for:\n- Interview candidates\n- Python intermediate learners\n- Function dispatch, clean code design\n\n#Python #FunctionDispatcher #CleanCode #InterviewTips #PythonTricks",
+    "tags": ["python", "function dispatcher", "calculator", "interview prep", "dictionary tricks", "callable", "no if else python"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Dictionary Mastery",
+    "publishAt": "2025-07-21 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  }
+]
+[
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Dictionary Word Counter"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Group Items with Python defaultdict"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Dictionary Function Dispatcher"
+  }
+]
