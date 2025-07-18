@@ -19,27 +19,7 @@ Based on the user’s question aur selected language, generate 3 **alag-alag aur
 🔹 User Question: {Yahaan user ka question daalo}
 🔹 Language: {Python / JavaScript / Go / etc.}
 
-User Question: What are Python’s standard data types in Python?
-
----
-
-Uske baad, main bolunga "yes" to move to next one.
-
-Ab ek script segment banao YouTube video ke liye.
-
-Tone hona chahiye **friendly, simple, aur India-style conversational**, jaise kisi friend ya junior dev ko explain kar rahe ho.
-
-✅ Style aur Tone ke Rules:
-
-- **Spoken-style HinEnglish** use karo, jaise daily baat-cheet mein karte ho
-- Language simple aur clear ho – no complex English ya Western buzzwords
-- **Indian beginner audience** ke liye relatable examples do (job, interviews, coding tasks, etc.)
-- **Hinglish in code** – sirf spoken part friendly ho
-- Tone hona chahiye like a good teacher helping a beginner
-- Code line by line explain karo, har step clearly samjhao
-- Batana mat bhoolo ki beginners usually kaha galti karte hai
-
-Har snippet ka video script ek-ek karke do. Main jab "yes" bolunga, tab agla snippet ka script do.
+User Question: How does Python handle switch-case?
 
 ---
 

@@ -1,0 +1,55 @@
+[
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Master Python For Loops With Range Statement 🔁",
+    "description": "🚀 Learn how Python 'for loops' work using range()!\n\nThis video explains:\n- How to use the range() function in loops\n- When to use for loops for counting\n- Idiomatic Python practices\n\n✅ Perfect for coding interviews and Python beginners\n#python #interviewprep #coding #loops #pythonbeginners",
+    "tags": ["python", "loops", "for loop", "range", "interview prep", "python programming"],
+    "categoryName": "Education",
+    "privacyStatus": "unlisted",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep",
+    "publishAt": "2025-07-19 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Python While Loops Explained With User Input 💡",
+    "description": "💡 Understand while loops in Python by building a simple interactive CLI!\n\nIn this video:\n- How while loops run until a condition is met\n- Using break to exit loops\n- Handling user input safely\n\n📘 Must-know pattern for real-world applications & interviews\n#python #whileloop #interviewquestions #cli #inputhandling",
+    "tags": ["python", "while loop", "break statement", "user input", "cli", "interview questions"],
+    "categoryName": "Education",
+    "privacyStatus": "unlisted",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep",
+    "publishAt": "2025-07-19 10:30:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Filter Even Numbers Using Python For Loop Logic",
+    "description": "🔥 Dive into list iteration in Python using for loops and continue!\n\nCovered in this video:\n- Looping through lists\n- Skipping elements using 'continue'\n- Filtering even numbers efficiently\n\n🔍 Real-life logic often asked in coding interviews!\n#python #forloop #continue #filterlogic #evennumbers #codinginterview",
+    "tags": ["python", "for loop", "continue statement", "filter", "list iteration", "interview prep"],
+    "categoryName": "Education",
+    "privacyStatus": "unlisted",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep",
+    "publishAt": "2025-07-19 11:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  }
+]
+[
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python For Loop Using Range"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python While Loop With Input"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Loop To Filter Even Numbers"
+  }
+]

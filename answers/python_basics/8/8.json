@@ -1,0 +1,55 @@
+[
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "🔥 Python if elif else Explained with Grading System | Interview Prep Guide",
+    "description": "Learn how to use if, elif, and else in Python with this simple Grading System example.\nPerfect for interviews, beginners, and coding practice!\n\n✅ In this video:\n- Python control flow using if-elif-else\n- Real-world grading logic\n- Common beginner mistakes\n- Interview tips for condition-based questions\n\n📌 Hashtags:\n#python #interviewquestions #gradinglogic #pythonforbeginners #controlflow\n",
+    "tags": ["python", "if elif else", "python interview", "grading system", "python beginner", "control flow", "conditional logic"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep Series",
+    "publishAt": "2025-07-20 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "🎟️ Movie Ticket Price Logic in Python | if elif else Full Tutorial",
+    "description": "Ever wondered how theatres decide ticket prices based on age? Learn it the Pythonic way!\n\n🎯 In this video:\n- Python if-elif-else logic in action\n- Age-based decision system\n- Common logical mistakes to avoid\n- Real-world scenario for interviews & practice\n\n📌 Hashtags:\n#python #movietickets #ifelsepython #agebasedlogic #interviewprep\n",
+    "tags": ["python", "ticket system", "if elif else", "movie ticket pricing", "python control flow", "interview prep"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep Series",
+    "publishAt": "2025-07-21 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "🤖 Build a Mini Chatbot in Python with if elif else | Mood Detection Example",
+    "description": "Build a mini chatbot using Python's if-elif-else structure!\nThis is a fun and practical example to understand conditional logic with strings.\n\n📚 You'll learn:\n- Python if-elif-else for text input\n- Mood detection logic\n- Real-world applications like chatbots & feedback parsers\n\n📌 Hashtags:\n#python #chatbot #ifelsepython #mooddetection #pythonprojects #beginnerpython\n",
+    "tags": ["python", "chatbot", "if elif else", "mood detection", "text analysis", "conditional statements"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep Series",
+    "publishAt": "2025-07-22 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  }
+]
+[
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Grading System using If Elif Else"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Movie Ticket Pricing Logic in Python"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Build a Chatbot Mood Responder in Python"
+  }
+]

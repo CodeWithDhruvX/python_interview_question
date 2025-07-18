@@ -1,0 +1,55 @@
+[
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Mastering Python break 🧠 Loop Control with Real Example",
+    "description": "🎯 Learn how to use Python's `break` statement effectively in real-world coding and interviews:\n\n🔹 Break out of loops early\n🔹 Real-time guessing game logic\n🔹 How `else` works with `for` loops (unique to Python!)\n\n💼 Ideal for:\n- Interview questions on loop control\n- Game development basics\n- Early exits from search algorithms\n\n#python #interviewprep #breakstatement #pythonloops #codinginterview\n\n📌 Subscribe for more Python concepts with real examples!",
+    "tags": ["python", "break", "loop control", "python loops", "coding interview", "interview prep", "guessing game", "break example"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep Series",
+    "publishAt": "2025-07-20 09:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Python continue Statement Explained with Smart Filtering 🎯",
+    "description": "🔥 Understand Python's `continue` statement through a smart even-number filter:\n\n🔹 Skip logic elegantly\n🔹 Filter cleanly using `continue`\n🔹 Avoid messy nested conditions\n\n🛠 Perfect for:\n- Interview scenarios\n- Data filtering tasks\n- Clean loop design\n\n📈 Sharpen your Python skills for interviews & projects.\n\n#python #continue #interviewprep #filterlogic #cleanpython #loopcontrol\n\n👉 Like & Subscribe for more practical Python!",
+    "tags": ["python", "continue", "loop skip", "filter even numbers", "coding interview", "clean code", "loop control", "python loops"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep Series",
+    "publishAt": "2025-07-21 09:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Python pass Keyword – Use Cases for Clean Prototyping 💡",
+    "description": "🧪 Learn how to use Python's `pass` statement like a pro:\n\n🔹 Placeholder for future code\n🔹 Scaffolding classes and methods\n🔹 Keep code syntactically valid\n\n👨‍💻 Best for:\n- Team-based development\n- Rapid prototyping\n- Interview prep: OOP design\n\n#python #passstatement #oop #interviewprep #pythonclasses #placeholder\n\n📺 Watch this before your next interview!",
+    "tags": ["python", "pass", "placeholder", "class design", "python oop", "coding interview", "method stub", "pass keyword"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep Series",
+    "publishAt": "2025-07-22 09:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  }
+]
+[
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Break Statement Number Guessing Game"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Continue Statement Smart Even Filter"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Pass Keyword Class Scaffolding Example"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Python Dictionary Based Switch Case Explained Clearly",
+    "description": "🎯 Learn how to implement switch-case in Python using dictionary mapping with functions!\n\n✅ In this video:\n- Simulate switch-case with dict\n- Use function references for clean branching\n- Add default case handling easily\n\n💡 Perfect for:\n- Interview coding rounds\n- Replacing long if-elif chains\n- Writing idiomatic, modular Python\n\n#python #switchcase #interviewprep #pythontricks #functionmapping",
+    "tags": ["python", "dictionary switch", "interview prep", "python functions", "control flow", "python tricks", "if-else alternative"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep Series",
+    "publishAt": "2025-07-20 09:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Python Match Case Complete Tutorial for Switch Case Logic",
+    "description": "✅ Dive deep into Python's modern structural pattern matching with match-case (Python 3.10+).\n\n📘 In this video:\n- Real-world use of match-case\n- Multiple case handling with `|`\n- Clean default case structure\n\n🧠 Best for:\n- Python devs upgrading to 3.10+\n- Clean switch-case design\n- Technical interviews\n\n#python #matchcase #switchcase #python310 #interviewtips #patternmatching",
+    "tags": ["python", "match case", "python 3.10", "switch alternative", "interview questions", "pattern matching", "control flow"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep Series",
+    "publishAt": "2025-07-21 09:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "OOP Style Switch Case in Python Using Classes",
+    "description": "🚀 Master OOP-based dispatching in Python with this dynamic method call technique.\n\n✅ What’s inside:\n- Use class methods as case handlers\n- Dynamically invoke using getattr()\n- Clean fallback to default method\n\n📌 Ideal for:\n- Large codebases needing scalability\n- Plugin-like handler systems\n- Clean and testable logic separation\n\n#python #oop #switchcase #interviewprep #dynamicdispatch #designpatterns",
+    "tags": ["python", "oop", "switch case", "interview questions", "python classes", "dynamic dispatch", "design patterns", "getattr"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep Series",
+    "publishAt": "2025-07-22 09:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  }
+]
+
+
+[
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Dictionary Based Switch Case"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Match Case Explained Simply"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python OOP Style Switch Case"
+  }
+]
