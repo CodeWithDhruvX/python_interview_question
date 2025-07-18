@@ -1,0 +1,57 @@
+[
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Master Python Data Types with Live Examples 🚀 | Beginner to Pro in Minutes",
+    "description": "📌 In this video, we break down one of the most important Python concepts – Data Types – using simple real-life code examples.\n\n✅ What you'll learn:\n- Understand all major Python data types\n- How to detect data types dynamically\n- Real-world use cases for type detection\n- Interview-style explanations with beginner-friendly approach\n\n👨‍💻 Perfect for:\n- Python Beginners\n- Coding Interview Prep\n- Anyone working with mixed data structures\n\n#python #datatypes #pythonforbeginners #interviewprep #learnpython #codinginterview #datastructures #pythoncode",
+    "tags": ["python", "data types", "interview questions", "python beginner", "type detection", "python list", "dynamic typing", "coding prep", "defaultdict", "counter", "collections module"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep Series",
+    "publishAt": "2025-07-19 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Count Python Data Types in Seconds | Pythonic Interview Trick 💡",
+    "description": "🎯 Learn how to quickly summarize and count data types in a Python list using Counter from the collections module.\n\n🔥 Why watch this?\n- Common interview problem explained step-by-step\n- Real-world application for debugging and validation\n- Shows Python best practices and idiomatic use of built-ins\n\n🧠 Topics Covered:\n- collections.Counter\n- Python data types\n- List iteration and analysis\n\n#python #interviewquestions #pythoncollections #counter #pythoncoding #datastructures #pythontips #learnpython",
+    "tags": ["python", "data types", "collections module", "counter", "interview prep", "type summary", "python tricks", "python interview", "coding interview"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep Series",
+    "publishAt": "2025-07-20 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Group Data by Type in Python | Smart use of defaultdict",
+    "description": "💡 Want to organize or clean data by types in Python? This advanced yet simple snippet shows how to use defaultdict for grouping by data type.\n\n✅ You'll learn:\n- How to use defaultdict to create dynamic type buckets\n- Why it's better than long if-else chains\n- Real-life usage in input cleaning, ETL, or interview rounds\n\n🎓 For:\n- Python developers\n- Data engineers\n- Students preparing for coding interviews\n\n#python #defaultdict #pythoncollections #grouping #datastructures #interviewprep #pythontips #learntocode",
+    "tags": ["python", "defaultdict", "grouping", "data types", "python script", "python interview", "collections", "group by", "data cleaning"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep Series",
+    "publishAt": "2025-07-21 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  }
+]
+
+
+[
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Data Type Detector Using type Function"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Count Each Python Data Type in a List"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Group Python Data By Type Using defaultdict"
+  }
+]
