@@ -19,7 +19,7 @@ Based on the user’s question aur selected language, generate 3 **alag-alag aur
 🔹 User Question: {Yahaan user ka question daalo}
 🔹 Language: {Python / JavaScript / Go / etc.}
 
-User Question: What are Python’s data types in python?
+User Question: What is the difference between is and == in Python?
 
 ---
 

@@ -1,0 +1,55 @@
+[
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Python is vs == Explained with Numbers 🔍",
+    "description": "🧠 Confused between `is` and `==` in Python?\nIn this video, we break down the difference using numbers with crystal clear examples!\n\n🎯 What you'll learn:\n- Difference between value equality and identity\n- Python's integer caching (interning)\n- Common beginner mistakes\n\n📌 Perfect for:\n- Interview prep\n- Python beginners\n- Debugging tricky comparison bugs\n\n#python #interviewprep #pythonbasics #coding #programming #pythonisvs==",
+    "tags": ["python", "is vs ==", "python comparison", "interview prep", "python beginner", "identity vs equality", "mutable vs immutable"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Questions",
+    "publishAt": "2025-07-20 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Python is vs == Using Lists – Shocking Results!",
+    "description": "🧠 `is` vs `==` in Python using lists? This will blow your mind!\n\nIn this video:\n- Understand how lists behave differently from numbers\n- Learn the concept of aliasing and object references\n- Real interview-level explanation with beginner-friendly code\n\n✅ Avoid common bugs caused by confusion between identity and equality.\n\n#python #listcomparison #interviewprep #aliasing #codingtips #pythonbasics",
+    "tags": ["python", "list comparison", "is vs ==", "python interview", "coding interview", "python lists", "aliasing in python"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Questions",
+    "publishAt": "2025-07-22 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Python is vs == With Custom Class Objects – Must Know for Interviews!",
+    "description": "👨‍💻 `is` vs `==` in Python – What happens with your own classes?\n\nThis video explains:\n- How custom objects behave with `==` and `is`\n- Default behavior of Python's object comparison\n- Why `__eq__` matters and when to override it\n\n🎓 A must-know for interviews and real-world coding.\n\n#python #customclass #objectcomparison #interviewquestions #pythonobjects #pythonisvs==",
+    "tags": ["python", "is vs ==", "custom classes", "python __eq__", "interview questions", "object comparison", "python classes"],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Questions",
+    "publishAt": "2025-07-24 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  }
+]
+[
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python is vs equal using numbers"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python is vs equal with lists example"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python is vs equal using custom class"
+  }
+]
