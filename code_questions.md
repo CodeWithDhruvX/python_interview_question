@@ -21,6 +21,7 @@ What is a dictionary in Python?
 
 What is the difference between is and ==?
 
+---
 How is memory managed in Python?
 
 What are Python’s standard data types?
