@@ -1,0 +1,82 @@
+[
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Python Local vs Global Variables Explained with Simple Example 🚀",
+    "description": "✅ Learn the difference between local and global variables in Python – the most common interview confusion for beginners!\n\nIn this video:\n- 🔍 Local vs Global scope explained clearly\n- 💡 Real-world beginner-friendly code example\n- ❌ Common mistakes beginners make\n- 📌 When and where to use each one\n\nPerfect for:\n- Python beginners\n- Coding interviews\n- Class 11/12 Python students\n\n#Python #Variables #CodingInterview #PythonBeginners #Scope #GlobalVsLocal #TechWithIndia",
+    "tags": [
+      "python",
+      "local vs global",
+      "python interview questions",
+      "beginner python",
+      "scope in python",
+      "python programming",
+      "python variables",
+      "python tutorial"
+    ],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep",
+    "publishAt": "2025-07-19 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "How to Modify Global Variables in Python 🔥 Use of global keyword",
+    "description": "✅ Learn how to update global variables inside a Python function using the global keyword.\n\nIn this video:\n- 🔑 What is the `global` keyword?\n- ⚠️ Why Python gives UnboundLocalError\n- ✅ Correct way to modify global variable\n- 📈 Real-world use case (counters, shared state)\n\nPerfect for:\n- Python interview prep\n- Class 12 IP/CS\n- Anyone confused about global scope\n\n#Python #GlobalKeyword #PythonInterview #PythonTips #PythonForBeginners #CodingScope #ProgrammingTricks",
+    "tags": [
+      "python",
+      "global keyword",
+      "modify global variable",
+      "python interview",
+      "scope in python",
+      "python for class 12",
+      "python counter",
+      "python function scope"
+    ],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep",
+    "publishAt": "2025-07-20 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  },
+  {
+    "videoFile": "C:/Users/YourName/Videos/video.mp4",
+    "title": "Python Closure & nonlocal 🔄 Maintain State Without Global Variables",
+    "description": "🎯 Learn how to use closures in Python to maintain state across function calls – without using global variables!\n\nIn this video:\n- 🧠 What is a closure in Python?\n- 📌 How `nonlocal` helps maintain local state\n- ⚙️ Build your own counter without global\n- 🚀 Real-world uses of closures (throttlers, retry logic, etc.)\n\nThis is a must-know concept for interviews and real projects!\n\n#PythonClosures #nonlocal #PythonInterviewPrep #NoGlobals #AdvancedPython #CodingWithIndia #FunctionalProgramming",
+    "tags": [
+      "python",
+      "closure",
+      "nonlocal",
+      "state management",
+      "python interview prep",
+      "advanced python",
+      "functional python",
+      "python tricks"
+    ],
+    "categoryName": "Education",
+    "privacyStatus": "public",
+    "thumbnail": "C:/Users/YourName/Videos/thumbnail.png",
+    "playlistName": "Python Interview Prep",
+    "publishAt": "2025-07-21 10:00:00",
+    "madeForKids": false,
+    "ageRestriction": false
+  }
+]
+[
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Local vs Global Variables"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Modify Global Variable in Python using Global Keyword"
+  },
+  {
+    "slide_topic": "C:/Users/dhruv/Videos/2025/golang_interview_questions/11/coding_shorts/audio/2025-07-10 22-02-26_output.mp4",
+    "title_text": "Python Closure and Nonlocal Explained"
+  }
+]
