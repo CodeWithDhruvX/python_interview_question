@@ -25,22 +25,34 @@ def transcribe_words_to_ass(video_path, language="en"):
     ass_file = os.path.splitext(video_path)[0] + "_wordstyle.ass"
     with open(ass_file, "w", encoding="utf-8") as f:
         # Header and Styles using triple-quoted string
-        f.write(f"""[Script Info]
+#         f.write(f"""[Script Info]
+# Title: One Word at a Time Subs
+# ScriptType: v4.00+
+# PlayResX: 1920
+# PlayResY: 1080
+# Timer: 100.0000
+
+# [V4+ Styles]
+# Format: Name, Fontname, Fontsize, PrimaryColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+# Style: Default,Impact,60,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,20,20,90,1
+
+# [Events]
+# Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+# """)
+
+        f.write("""[Script Info]
 Title: One Word at a Time Subs
 ScriptType: v4.00+
-PlayResX: 1920
-PlayResY: 1080
-Timer: 100.0000
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Default,Impact,60,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,20,20,90,1
+Style: Default,Impact,24,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,10,90,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 """)
-
         for segment in result["segments"]:
             for word in segment.get("words", []):
                 start = format_ass_timestamp(word["start"])
