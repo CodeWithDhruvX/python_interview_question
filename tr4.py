@@ -1,3 +1,4 @@
+
 import whisper
 import os
 import subprocess
@@ -5,6 +6,7 @@ import json
 import logging
 import shlex
 import platform
+from faster_whisper import WhisperModel
 
 logging.basicConfig(level=logging.INFO, format="🔹 %(message)s")
 
@@ -17,30 +19,13 @@ def format_ass_timestamp(seconds):
 
 def transcribe_words_to_ass(video_path, language="en"):
     logging.info("🔍 Loading Whisper model...")
-    model = whisper.load_model("large")
+    model = WhisperModel("large-v3", compute_type="int8")
 
     logging.info("🎙️ Transcribing with word-level timestamps...")
-    result = model.transcribe(video_path, language=language, word_timestamps=True, verbose=True)
+    segments, info = model.transcribe(video_path, language=language, word_timestamps=True, beam_size=5)
 
     ass_file = os.path.splitext(video_path)[0] + "_wordstyle.ass"
     with open(ass_file, "w", encoding="utf-8") as f:
-        # Header and Styles using triple-quoted string
-#         f.write(f"""[Script Info]
-# Title: One Word at a Time Subs
-# ScriptType: v4.00+
-# PlayResX: 1920
-# PlayResY: 1080
-# Timer: 100.0000
-
-# [V4+ Styles]
-# Format: Name, Fontname, Fontsize, PrimaryColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-# Style: Default,Impact,60,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,2,0,2,20,20,90,1
-
-# [Events]
-# Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-
-# """)
-
         f.write("""[Script Info]
 Title: One Word at a Time Subs
 ScriptType: v4.00+
@@ -53,13 +38,13 @@ Style: Default,Impact,24,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,1,2,10,1
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 
 """)
-        for segment in result["segments"]:
-            for word in segment.get("words", []):
-                start = format_ass_timestamp(word["start"])
-                end = format_ass_timestamp(word["end"])
-                text = word["word"].strip().replace('\n', '').replace('{', '').replace('}', '')
+        for segment in segments:
+            for word in segment.words:
+                start = format_ass_timestamp(word.start)
+                end = format_ass_timestamp(word.end)
+                text = word.word.strip().replace('\n', '').replace('{', '').replace('}', '')
                 if text:
-                    f.write(f"Dialogue: 0,{start},{end},WordStyle,,0,0,0,,{text}\n")
+                    f.write(f"Dialogue: 0,{start},{end},Default,,0,0,0,,{text}\n")
 
     logging.info(f"✅ ASS subtitle saved: {ass_file}")
     return ass_file
@@ -67,20 +52,11 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 def burn_ass_subtitle(video_path, ass_path, output_path):
     logging.info("🔥 Burning subtitles into video...")
 
-    # Ensure forward slashes for cross-platform compatibility
     ass_path_ffmpeg = ass_path.replace("\\", "/")
-
-    # Escape colons for the ass filter (e.g., C:/ becomes C\:/)
-    # This is crucial for FFmpeg to not misinterpret drive letters as filter options
     ass_path_ffmpeg = ass_path_ffmpeg.replace(":", "\\:")
-    
-    # Use shlex.quote to handle spaces and other special characters robustly
-    # shlex.quote will add the necessary surrounding quotes if needed.
     quoted_ass_path = shlex.quote(ass_path_ffmpeg)
-    
-    # The vf_string should simply be 'ass=<quoted_path>'
     vf_string = f"ass={quoted_ass_path}"
-    
+
     cmd = [
         "ffmpeg",
         "-y",
@@ -90,7 +66,7 @@ def burn_ass_subtitle(video_path, ass_path, output_path):
         output_path
     ]
 
-    logging.info(f"Executing FFmpeg command: {' '.join(cmd)}") # Log the exact command
+    logging.info(f"Executing FFmpeg command: {' '.join(cmd)}")
     try:
         subprocess.run(cmd, check=True)
         logging.info(f"✅ Final video with subtitles saved: {output_path}")
@@ -108,12 +84,10 @@ def process_video_entry(entry):
     ass_file = transcribe_words_to_ass(input_path)
     burn_ass_subtitle(input_path, ass_file, output_path)
 
-# 🔹 Entry point
 if __name__ == "__main__":
     json_file = "video_subtitle.json"
-    
     if not os.path.exists(json_file):
-        logging.error("❌ video_titles.json not found!")
+        logging.error("❌ video_subtitle.json not found!")
     else:
         with open(json_file, "r", encoding="utf-8") as f:
             entries = json.load(f)
