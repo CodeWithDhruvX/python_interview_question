@@ -1,0 +1,86 @@
+You are a high-performing YouTube growth strategist and title-copywriting expert.
+
+👉 Task:
+For each of the following YouTube video titles or topics, generate:
+- 1️⃣ A reworked, high-CTR YouTube **Title**
+- 2️⃣ A **Thumbnail Text Hook** (2–4 words max, designed for visual impact)
+- 3️⃣ An optional **Question-style Opening Hook** to use in video intro or caption.
+
+🎯 Use these rules:
+- Titles must create curiosity or tension. Use words like: “Why”, “How”, “Stop”, “Mistake”, “Breaks”, “Fix”, “Hidden”, etc.
+- Use power emojis to enhance clarity (🔥, ❌, 🤯, 🧠, 🛑, etc.)
+- Thumbnail text should be bold, visual, and minimal — as if it will be shown over a video image.
+
+---
+
+🎬 INPUT TOPICS:
+1.
+def modify_sequence(seq):
+    try:
+        seq[0] = 99
+        print("Modified:", seq)
+    except TypeError as e:
+        print("Error:", e)
+
+# List example
+my_list = [1, 2, 3]
+print("Original List:", my_list)
+modify_sequence(my_list)
+
+# Tuple example
+my_tuple = (1, 2, 3)
+print("\nOriginal Tuple:", my_tuple)
+modify_sequence(my_tuple)
+
+
+
+
+
+
+Give the output in a table format.
+
+=============
+
+2.
+# Using tuple as a dictionary key
+location_data = {
+    (28.6139, 77.2090): "New Delhi",
+    (19.0760, 72.8777): "Mumbai"
+}
+
+print("City at (28.6139, 77.2090):", location_data[(28.6139, 77.2090)])
+
+# Trying to use list as a key (will raise error)
+try:
+    invalid_dict = {[1, 2]: "List as key"}  # ❌
+except TypeError as e:
+    print("Error:", e)
+
+
+
+
+
+==============
+3.
+package main
+
+import "fmt"
+
+func main() {
+	// Array occupies exact space for 5 elements
+	arr := [5]string{"a", "b", "c", "d", "e"}
+
+	// Slice from index 1 to 3 (excluding 4)
+	slice := arr[1:4]
+	fmt.Println("Original Array:", arr)
+	fmt.Println("Slice:", slice)
+	fmt.Printf("Slice len: %d, cap: %d\n",
+		len(slice), cap(slice))
+
+	// Append to slice
+	slice = append(slice, "z")
+	fmt.Println("After Append:", slice)
+}
+
+
+
