@@ -1,0 +1,27 @@
+[
+  {
+    "title": "🤔 Python? Kya Yeh Saanp Hai? 🐍",
+    "content": "**Myth:** Python matlab coding mein saanp use karte hain! 😂\n\n**Reality:** Python ek **programming language** hai jo...\n\n🎯 **Super simple** hai seekhna\n🚀 **Powerful** hai use karna  \n💼 **High-paying jobs** deti hai\n\n*Fun fact:* Name comes from 'Monty Python' comedy show, not snake! 🎭",
+    "slide_type": "text"
+  },
+  {
+    "title": "💻 Python Ka Magic - Live Demo!",
+    "content": "# Simple Calculator banate hain!\nnum1 = 10\nnum2 = 5\n\n# Addition\nresult = num1 + num2\nprint(f\"Answer: {result}\")\n\n# Output: Answer: 15\n\n# Itna simple! 🔥",
+    "slide_type": "code"
+  },
+  {
+    "title": "🥊 Python vs Other Languages",
+    "content": "[\n  [\"Task\", \"Python\", \"Other Languages\"],\n  [\"Hello World\", \"print('Hello!')\", \"public static void main...\"],\n  [\"Learning Time\", \"2-3 months 📚\", \"6-12 months 😰\"],\n  [\"Salary Range\", \"₹6-25 LPA 💰\", \"₹4-20 LPA\"],\n  [\"Job Demand\", \"High 📈\", \"Medium\"]\n]",
+    "slide_type": "table"
+  },
+  {
+    "title": "🌟 Python Kahan Use Hota Hai?",
+    "content": "**Real Companies, Real Usage:**\n\n🎬 **Netflix** - Recommendations system\n🚗 **Tesla** - Self-driving cars  \n📱 **Instagram** - Backend magic\n🔍 **Google** - Search algorithms\n🤖 **ChatGPT** - AI development\n\n**Career Options:**\n✨ Web Developer (₹8-15 LPA)\n🤖 AI Engineer (₹12-25 LPA)\n📊 Data Scientist (₹10-20 LPA)",
+    "slide_type": "text"
+  },
+  {
+    "title": "🚀 Ready To Start Your Python Journey?",
+    "content": "**Today's Challenge:** 30 minutes mein first program banao! 💪\n\n**Quick Start:**\n1️⃣ Download Python (free!)\n2️⃣ Write: `print(\"Main Python seekh raha hun!\")`\n3️⃣ Run it! 🎉\n\n**Coming Next:** *\"Python vs JavaScript - Kaun Better Hai Beginners Ke Liye?\"* 🤔\n\n**Comment:** Aapka first program kya hoga? 👇",
+    "slide_type": "text"
+  }
+]

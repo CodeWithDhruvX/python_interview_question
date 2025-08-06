@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Myth: Coding = Rocket Science? 🚀",
+    "content": "**Reality check!** Python’s actually *super beginner-friendly* — like using Insta filters versus learning Photoshop. Let’s see why!",
+    "slide_type": "text"
+  },
+  {
+    "title": "Why Python Is Sabse Easy! 🐍✨",
+    "content": "- **Simple language, boss!** (Bilkul English jaise likho)\n- **Free & Open Source** (Koi paisa nahi lagta)\n- **Use anywhere:** Web, data science, games, automation—sab kuch!",
+    "slide_type": "text"
+  },
+  {
+    "title": "Ek Chotu Example 📖",
+    "content": "# Print sab ka favourite word:\nprint(\"Hello, world!\")",
+    "slide_type": "code"
+  },
+  {
+    "title": "Python vs Dusre Languages 🤼",
+    "content": "| Feature         | Python              | C++              |\n|-----------------|---------------------|------------------|\n| Likho jaise bolo| Yes                 | Thoda tough      |\n| Badiya for newbies | Bilkul!          | Mushkil shuruat  |\n| Lengthy syntax? | Nahi                | Haan             |",
+    "slide_type": "table"
+  },
+  {
+    "title": "Curiosity: Kaise Sochta Hai Python? 🤔",
+    "content": "**Agla Short:** Python aur JavaScript ki *soch*-mein kya farq hai? Tap to find out! 🔥",
+    "slide_type": "text"
+  }
+]
