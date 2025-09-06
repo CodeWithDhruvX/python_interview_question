@@ -25,20 +25,26 @@ I will provide a list of questions or topics. For each question:
 
 Input format example:
 
-* Question 1: How does blockchain work?
-* Question 2: What is quantum computing?
-* Question 3: How do neural networks learn?
+* Question 4: How does blockchain work?
+* Question 5: What is quantum computing?
+* Question 6: How do neural networks learn?
 
 Output: One file with presentations, diagrams, and visual cues for all questions.
 
 
 make sure that this is not youtube script but youtube video presentation text
 ---
-10. What is a `sync.WaitGroup`?
-11. How does `sync.Mutex` work?
-12. What is `sync.Once`?
+What are Python’s data types?
 
-hindi language used but "Question" word only english
+What is a dictionary in Python?
+
+What is the difference between is and ==?
+
+Hindi (Devanagari) + English tech terms (the style you want):
+“आज हम समझेंगे sync.WaitGroup क्या है और इसका इस्तेमाल कहाँ किया जाता है।”
+
+
+but "Question" word only english
 
 ````
  
@@ -46,7 +52,7 @@ hindi language used but "Question" word only english
 =======================================================
 
 
-in depth explantion add and final output gives me
+in depth explantion add and final output gives me in the Hindi (Devanagari) + English tech terms (the style you want): “आज हम समझेंगे sync.WaitGroup क्या है और इसका इस्तेमाल कहाँ किया जाता है।”
 
 
 ============================================================
