@@ -1,27 +1,47 @@
-````
----
+I will provide a list of questions or topics. For each question, generate a detailed YouTube video presentation text that can last 7–8 minutes, with strong visual and structural focus.
 
-I will provide a list of questions or topics. For each question:
+Presentation structure for each question/topic:
 
-1. Generate a YouTube video presentation text.
+1. Introduction (about 1–2 minutes)
+   - Introduce the topic in an engaging, simple, and conversational way.
+   - Use vivid imagery, metaphors, or analogies to help viewers visualize the concept.
+   - Provide context or a real-world example to make the topic relatable.
 
-2. Structure each presentation as follows:
+2. Key Points (3 to 5 main points, about 1–2 minutes per point)
+   - Present each key point clearly and concisely.
+   - For each key point:
+     * Use bullet points for explanation, keeping each point short and precise.
+     * Integrate a relevant visual element:
+       - Mermaid diagram or flowchart illustrating the concept/process. (optional)
+       - Example:
+         ```mermaid
+         graph TD;
+             Step1-->Step2;
+             Step2-->Step3;
+         ```
+     * Include small coding blocks or pseudocode snippets when applicable.
+       - Example:
+         ```
+         # Example pseudocode
+         for i in range(5):
+             print(i)
+         ```
+     * Include a short, relatable example or analogy to make the point clearer.
+     * Suggest how viewers should imagine or visualize the concept in action (e.g., "Picture the data flowing through this diagram...", "Visualize the code executing step by step...").
 
-   * Introduction: Include a introduction about the topic text.
-   * Key Points: 3–5 main points, each with:
+3. Conclusion (about 30 seconds–1 minute)
+   - Summarize the key takeaways in a simple, memorable way.
+   - End with a final thought or a call to curiosity for viewers to explore further.
 
-     * Bullet points for explanation
-     * Diagram or visual placeholder (Mermaid or image placeholder)
-       Example:
-       graph showing step 1 → step 2 → step 3
-     * On-screen text / narration cues in parentheses
-   * Conclusion: Summary and call-to-action
-
-3. Tone should be conversational, engaging, and easy to visualize.
-
-4. Keep sentences short and suitable for narration.
-
-5. Output all questions in a single file, each starting with a heading for the question/topic.
+Additional guidelines:
+- Tone: Conversational, engaging, and easy to follow.
+- Sentence length: Short, crisp, and narratable.
+- Visual emphasis: Include clear instructions for diagrams, flowcharts, or code visualizations.
+- Present the entire output as plain text formatted for direct use in creating video presentations.
+- Each question or topic should be clearly marked with a heading.
+- Do not add extra labels or sections like narration, placeholder,minutes duration on title, or visual; integrate all instructions naturally in the text.
+- add Questions [number] : on questions
+- Ensure the content is detailed enough to support a 7–8 minute presentation per topic.
 
 Input format example:
 
@@ -29,25 +49,16 @@ Input format example:
 * Question 5: What is quantum computing?
 * Question 6: How do neural networks learn?
 
-Output: One file with presentations, diagrams, and visual cues for all questions.
-
-
-make sure that this is not youtube script but youtube video presentation text
----
-What are Python’s data types?
-
-What is a dictionary in Python?
-
-What is the difference between is and ==?
-
 Hindi (Devanagari) + English tech terms (the style you want):
 “आज हम समझेंगे sync.WaitGroup क्या है और इसका इस्तेमाल कहाँ किया जाता है।”
 
 
-but "Question" word only english
+questions here - 
 
-````
- 
+- How do you reverse a string in Python?
+
+- What are string slicing and indexing?
+
 
 =======================================================
 
@@ -56,6 +67,14 @@ in depth explantion add and final output gives me in the Hindi (Devanagari) + En
 
 
 ============================================================
+
+
+Topic title must folllow with numberic number. topic_name jsut like this # 1. Introduction to Python **Script:** Welcome to our Python tutorial series! Today, we'll explore the basics of Python programming. # 2. Variables in Python **Script:** Let's dive into variables, the building blocks of any Python program.
+
+
+give me the script as a signle video question for the all questions above and don't combined it seperates
+
+===========================================================
 
  based on the above result genrated resulta YouTube video presentation text, Your task is to turn this presentation into a YouTube script.  
 
@@ -80,7 +99,47 @@ Output format:
 * Section 2: …  
 * Conclusion / Call-to-action  
 
+in depth explantion add and final output gives me in the Hindi (Devanagari) + English tech terms (the style you want): “आज हम समझेंगे sync.WaitGroup क्या है और इसका इस्तेमाल कहाँ किया जाता है।”
+
 
 Here is the input presentation text:  
 [PASTE PRESENTATION TEXT HERE]
+
+
+
+
+===============================================
+
+
+ Based on the above result genrated,Write a detailed and engaging script in Hindi for a YouTube video on your chosen topic. Structure the script to include an introduction, main content broken into clear sections, and a conclusion. Add anecdotes or examples relevant to your audience to make the content more relatable and engaging.
+
+
+## Target Audience:
+- Age: 18-34 (primary), broad range 18-65+
+- Interests: Engaging, clear, and actionable content
+- Viewing behavior: Prefer concise intros, strong hooks, and segmented content
+
+# Steps
+
+1. **Introduction**: Provide an overview of the topic, hook the audience with an interesting fact, statistic, or question.
+2. **Body**: Break down the main points into sections. Use subheadings for clarity. Include anecdotes, explanations, and facts.
+3. **Conclusion**: Summarize the key takeaways and thank the viewers. Encourage them to like, subscribe, and comment.
+4. **Call to Action**: Encourage engagement by prompting viewers to share their thoughts or ask questions in the comments.
+5. **Review**: Edit the script for clarity, grammar, and flow before finalizing.
+6. don't include any diagram, coding snippet and visual text. only script text include
+7. Add **pauses and rhythm** where needed — use [pause] to show natural breaks.
+8. Topic title must folllow with numberic number. topic_name
+
+# Output Format
+
+- Use numbered bullet points for each section.
+- Introduction (150-200 words)
+- Each main section 
+- Conclusion (100-150 words)
+
+# Notes
+
+- Ensure the language is colloquial and engaging to maintain viewers' interest.
+- Avoid excessive jargon; keep explanations simple and clear to accommodate a broad audience.
+- Maintain a friendly and approachable tone throughout the script.
 
